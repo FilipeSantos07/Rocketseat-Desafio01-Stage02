@@ -21,6 +21,7 @@ body {
 }
 main img {
     width: 348px;
+    animation: samePlace 1.2s;
 }
 h1 {
     font-family: 'Inter', sans-serif;
@@ -28,6 +29,7 @@ h1 {
     line-height: 56px;
     font-size: 49px;
     margin-top: 45px;
+    animation: fromLeft 1.2s .1s backwards;
 }
 h1 span {
     font-weight: 700;
@@ -40,6 +42,10 @@ p {
     font-size: 14px;
     line-height: 28px;
     margin-top: 30px;
+    animation: fromRight 1.2s .2s backwards;
+}
+main p:nth-child(4) {
+    animation: fromLeft 1.2s .3s backwards;
 }
 p span {
     color: #FF9900;
@@ -47,6 +53,7 @@ p span {
 footer {
     margin-top: -14px;
     margin-bottom: 33px;
+    animation: fromBottom 1.2s .4s backwards;
 }
 .line {
     width: 568px;
@@ -69,7 +76,49 @@ footer a:nth-child(3) {
     position: fixed;
     bottom: 0;
     right: 0;
+    animation: fromRight 1.2s .5s backwards;
 }
+@keyframes fromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fromRight {
+    from {  
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes samePlace {
+    from {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 @media only screen and (max-width:816px) {
     main img {
         width: 100%;
