@@ -101,7 +101,7 @@ footer a:nth-child(3) {
 @keyframes fromBottom {
     from {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(10px);
     }
     to {
         opacity: 1;
