@@ -1,4 +1,4 @@
-# Landing Page
+# Projeto 01 - Landing Page
 
 ![preview](./.github/preview.png)
 
