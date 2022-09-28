@@ -70,3 +70,16 @@ footer a:nth-child(3) {
     bottom: 0;
     right: 0;
 }
+@media only screen and (max-width:816px) {
+    main img {
+        width: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #balls {
+        display: none;
+    }
+}
