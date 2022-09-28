@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 main img {
-    width: 348px;
+    max-width: 348px;
     animation: samePlace 1.2s;
 }
 h1 {
@@ -55,7 +55,7 @@ footer {
     margin-bottom: 33px;
 }
 .line {
-    width: 568px;
+    max-width: 568px;
     margin: auto;
     border: 1px solid #ECEFF2;
     margin-bottom: 8px;
