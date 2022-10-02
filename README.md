@@ -15,4 +15,4 @@ Esse foi o primeiro projeto da trilha Explorer da Rocketseat. Uma landing page s
 
 ## 💛 Contato
 
-outerspaceguy@live.co.uk
+FilipeSantosEstudos1@gmail.com
